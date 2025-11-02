@@ -12,22 +12,3 @@ COPY bot.py .
 RUN mkdir -p downloads
 
 CMD ["python", "bot.py"]
-```
-
-4. Cliquez **"Commit changes..."** → **"Commit changes"**
-
----
-
-### **Fichier 4 : .gitignore**
-
-1. Cliquez sur **"Add file"** → **"Create new file"**
-2. Nom du fichier : `.gitignore`
-3. Copiez-collez ce contenu :
-```
-.env
-__pycache__/
-downloads/
-*.mp3
-*.m4a
-venv/
-.DS_Store
